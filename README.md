@@ -1,8 +1,8 @@
 <!-- Theme-aware hero banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bablu-Nayak/Bablu-Nayak/1501b2871bb52bb7a85f937085c1ec13e03d4396/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bablu-Nayak/Bablu-Nayak/cb49e5a92e5ff0c2965ea75475d643d9bce953e3/light.svg">
-  <img src="https://raw.githubusercontent.com/Bablu-Nayak/Bablu-Nayak/1501b2871bb52bb7a85f937085c1ec13e03d4396/dark.svg" alt="V Bablu Nayak — Computer Science Undergraduate at IIT Madras" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark-v4.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light-v4.svg">
+  <img src="./dark-v4.svg" alt="V Bablu Nayak — Computer Science Undergraduate at IIT Madras" width="100%">
 </picture>
 
 <p align="center">
