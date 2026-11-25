@@ -1,4 +1,10 @@
-![V Bablu Nayak — Computer Science Undergraduate at IIT Madras](./dark-v4.svg)
+<!-- Theme-aware hero banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" alt="V Bablu Nayak — Computer Science Undergraduate at IIT Madras" width="100%">
+</picture>
+
 <p align="center">
   <strong>Third-year Computer Science Undergraduate · IIT Madras</strong><br>
   Computer Systems &nbsp;·&nbsp; AI Applications &nbsp;·&nbsp; Software Engineering
