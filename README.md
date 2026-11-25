@@ -23,7 +23,6 @@ Computer Systems &nbsp;·&nbsp; AI Applications &nbsp;·&nbsp; Software Engineer
 ## About
 
 I'm a **third-year B.Tech Computer Science undergraduate at IIT Madras** (2024–present).
-I'm a **third-year B.Tech Computer Science undergraduate at IIT Madras** (2024–present).
 
 I enjoy building across the software stack — from digital logic, processor design and low-level programming to AI-powered applications. I like understanding how things work from first principles and using that understanding to build practical tools.
 
