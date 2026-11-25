@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+  <title id="title">V Bablu Nayak — Computer Science Undergraduate at IIT Madras</title>
+  <desc id="desc">A terminal-inspired engineering profile showing a path from digital logic and computer systems to AI applications, along with selected technologies and projects.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#091827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B8A2FF"/>
+      <stop offset=".52" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#72E7B7"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx=".2" cy=".2" r=".9">
+      <stop offset="0" stop-color="#B8A2FF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#B8A2FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#29445A" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <clipPath id="leftClip"><rect x="32" y="78" width="390" height="500" rx="18"/></clipPath>
+    <clipPath id="rightClip"><rect x="438" y="78" width="710" height="500" rx="18"/></clipPath>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020812" flood-opacity=".34"/>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="1164" height="594" rx="26" fill="url(#background)" stroke="#244159" stroke-width="1.2"/>
+  <rect x="8" y="8" width="1164" height="594" rx="26" fill="url(#grid)" opacity=".35"/>
+  <circle cx="170" cy="92" r="290" fill="url(#ambient)">
+    <animate attributeName="opacity" values=".72;1;.72" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1075" cy="515" r="230" fill="#67E8F9" opacity=".035">
+    <animate attributeName="opacity" values=".025;.07;.025" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Terminal chrome -->
+  <rect x="24" y="18" width="1132" height="44" rx="12" fill="#0B1B2B" fill-opacity=".9" stroke="#244159"/>
+  <circle cx="46" cy="40" r="5" fill="#FF6B6B"/>
+  <circle cx="64" cy="40" r="5" fill="#F6C85F"/>
+  <circle cx="82" cy="40" r="5" fill="#56C98D"/>
+  <text x="104" y="45" fill="#99AEC1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">bablu@iitm: ~/profile</text>
+  <text x="910" y="44" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.2">GITHUB PROFILE</text>
+  <rect x="1032" y="29" width="105" height="22" rx="11" fill="#72E7B7" fill-opacity=".14" stroke="#72E7B7" stroke-opacity=".55"/>
+  <circle cx="1047" cy="40" r="3.2" fill="#72E7B7">
+    <animate attributeName="opacity" values="1;.45;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1058" y="44" fill="#72E7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing=".9">ONLINE</text>
+
+  <!-- Left visual map -->
+  <g filter="url(#softShadow)">
+    <rect x="32" y="78" width="390" height="500" rx="18" fill="#0B1B2B" fill-opacity=".88" stroke="#244159"/>
+  </g>
+  <g clip-path="url(#leftClip)">
+    <rect x="32" y="78" width="390" height="500" rx="18" fill="url(#grid)" opacity=".34"/>
+    <path d="M52 136H402" stroke="#244159" opacity=".8"/>
+    <text x="56" y="115" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2">VISUAL.MAP</text>
+    <text x="355" y="115" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" text-anchor="end">SYS / 01</text>
+
+    <text x="56" y="168" fill="#99AEC1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="1.6">ENGINEERING MINDSET</text>
+    <text x="56" y="211" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" font-weight="750" letter-spacing="-.8">FROM LOGIC</text>
+    <text x="56" y="246" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" font-weight="750" letter-spacing="-.8">TO INTELLIGENCE<span fill="#67E8F9">.</span></text>
+    <text x="57" y="271" fill="#99AEC1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Building from first principles to useful applications.</text>
+
+    <!-- Computer architecture signal map -->
+    <text x="58" y="303" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.4">COMPUTER SYSTEMS</text>
+    <path d="M142 337H164M252 337H274M209 359V380M318 359V380H254" fill="none" stroke="#67E8F9" stroke-width="1.5" opacity=".8"/>
+    <path d="M153 333L164 337L153 341M263 333L274 337L263 341" fill="none" stroke="#67E8F9" stroke-width="1.5"/>
+    <rect x="60" y="320" width="82" height="38" rx="8" fill="#102A3D" stroke="#B8A2FF" stroke-opacity=".75"/>
+    <rect x="164" y="320" width="88" height="38" rx="8" fill="#102A3D" stroke="#67E8F9" stroke-opacity=".8"/>
+    <rect x="274" y="320" width="90" height="38" rx="8" fill="#102A3D" stroke="#72E7B7" stroke-opacity=".8"/>
+    <text x="101" y="344" fill="#B8A2FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" text-anchor="middle" font-weight="700">NAND</text>
+    <text x="208" y="344" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" text-anchor="middle" font-weight="700">LOGIC</text>
+    <text x="319" y="344" fill="#72E7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" text-anchor="middle" font-weight="700">CPU</text>
+    <rect x="164" y="380" width="90" height="30" rx="7" fill="#0E2235" stroke="#244159"/>
+    <text x="209" y="399" fill="#99AEC1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" text-anchor="middle">MEMORY</text>
+    <circle cx="154" cy="337" r="3.5" fill="#67E8F9">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="264" cy="337" r="3.5" fill="#67E8F9">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M56 430H398" stroke="#244159" opacity=".8"/>
+    <text x="58" y="452" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.4">AI APPLICATIONS</text>
+    <text x="58" y="478" fill="#F2F7FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">PDF</text>
+    <path d="M88 474H112M105 470L112 474L105 478" stroke="#67E8F9" fill="none"/>
+    <text x="120" y="478" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">EMBED</text>
+    <path d="M168 474H191M184 470L191 474L184 478" stroke="#67E8F9" fill="none"/>
+    <text x="199" y="478" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">RETRIEVE</text>
+    <path d="M267 474H290M283 470L290 474L283 478" stroke="#67E8F9" fill="none"/>
+    <text x="298" y="478" fill="#72E7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">LLM</text>
+
+    <rect x="56" y="510" width="342" height="42" rx="9" fill="#0E2235" stroke="#244159"/>
+    <rect x="56" y="510" width="3" height="42" rx="1.5" fill="url(#accent)"/>
+    <text x="72" y="528" fill="#F2F7FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing=".7">SYSTEMS  /  AI  /  SOFTWARE</text>
+    <text x="72" y="542" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9">LEARN  ·  BUILD  ·  ITERATE</text>
+
+    <!-- Subtle scan sweep; clipped to the visual panel -->
+    <rect x="32" y="150" width="390" height="2" fill="url(#accent)" opacity=".22">
+      <animate attributeName="y" values="150;560;150" dur="11s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Right system information -->
+  <g filter="url(#softShadow)">
+    <rect x="438" y="78" width="710" height="500" rx="18" fill="#0B1B2B" fill-opacity=".92" stroke="#244159"/>
+  </g>
+  <g clip-path="url(#rightClip)">
+    <rect x="438" y="78" width="710" height="500" rx="18" fill="url(#grid)" opacity=".20"/>
+    <text x="466" y="115" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2">SYSTEM.INFO</text>
+    <text x="1120" y="115" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" text-anchor="end">PROFILE.JSON</text>
+    <path d="M462 136H1124" stroke="#244159"/>
+    <text x="466" y="160" fill="#99AEC1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">$ whoami --profile</text>
+
+    <text x="466" y="204" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="37" font-weight="760" letter-spacing="-1.1">V Bablu Nayak</text>
+    <text x="468" y="230" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" letter-spacing=".7">COMPUTER SCIENCE UNDERGRADUATE</text>
+    <text x="468" y="253" fill="#99AEC1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">IIT Madras  ·  Exploring systems engineering and AI applications</text>
+
+    <path d="M466 274H1120" stroke="#244159"/>
+    <text x="468" y="300" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.6">01 / FOCUS</text>
+    <rect x="468" y="312" width="142" height="25" rx="7" fill="#102A3D" stroke="#244159"/>
+    <rect x="619" y="312" width="137" height="25" rx="7" fill="#102A3D" stroke="#244159"/>
+    <rect x="765" y="312" width="155" height="25" rx="7" fill="#102A3D" stroke="#244159"/>
+    <text x="539" y="328" fill="#B8A2FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" text-anchor="middle">COMPUTER SYSTEMS</text>
+    <text x="687" y="328" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" text-anchor="middle">AI APPLICATIONS</text>
+    <text x="842" y="328" fill="#72E7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" text-anchor="middle">SOFTWARE ENGINEERING</text>
+
+    <text x="468" y="367" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.6">02 / CORE STACK</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">
+      <rect x="468" y="379" width="67" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="501.5" y="395" fill="#F2F7FC" text-anchor="middle">C / C++</text>
+      <rect x="543" y="379" width="76" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="581" y="395" fill="#F2F7FC" text-anchor="middle">PYTHON</text>
+      <rect x="627" y="379" width="91" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="672.5" y="395" fill="#F2F7FC" text-anchor="middle">ASSEMBLY</text>
+      <rect x="726" y="379" width="94" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="773" y="395" fill="#F2F7FC" text-anchor="middle">LANGCHAIN</text>
+      <rect x="828" y="379" width="91" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="873.5" y="395" fill="#F2F7FC" text-anchor="middle">CHROMADB</text>
+      <rect x="927" y="379" width="64" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="959" y="395" fill="#F2F7FC" text-anchor="middle">GROQ</text>
+      <rect x="999" y="379" width="88" height="24" rx="7" fill="#0E2235" stroke="#244159"/><text x="1043" y="395" fill="#F2F7FC" text-anchor="middle">STREAMLIT</text>
+    </g>
+
+    <text x="468" y="434" fill="#71899D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" letter-spacing="1.6">03 / SELECTED BUILDS</text>
+    <circle cx="474" cy="456" r="3" fill="#72E7B7"/>
+    <text x="488" y="460" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="700">DocuChat AI</text>
+    <text x="596" y="460" fill="#99AEC1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11.5">RAG-based PDF question answering</text>
+
+    <circle cx="474" cy="483" r="3" fill="#B8A2FF"/>
+    <text x="488" y="487" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="700">Nand2Tetris</text>
+    <text x="596" y="487" fill="#99AEC1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11.5">Digital logic to a computer toolchain</text>
+
+    <circle cx="474" cy="510" r="3" fill="#67E8F9"/>
+    <text x="488" y="514" fill="#F2F7FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="700">Computer Architecture</text>
+    <text x="650" y="514" fill="#99AEC1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11.5">RISC-V · virtual memory · pipelining</text>
+
+    <path d="M466 536H1120" stroke="#244159"/>
+    <text x="468" y="557" fill="#99AEC1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9">GITHUB.COM/BABLU-NAYAK</text>
+    <text x="1120" y="557" fill="#72E7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" text-anchor="end">BUILDING WITH PURPOSE</text>
+  </g>
+
+  <rect x="8.6" y="8.6" width="1162.8" height="592.8" rx="25.5" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity=".44">
+    <animate attributeName="opacity" values=".28;.58;.28" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
