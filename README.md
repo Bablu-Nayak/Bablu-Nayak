@@ -1,8 +1,8 @@
 <!-- Theme-aware hero banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="V Bablu Nayak — Computer Science Undergraduate at IIT Madras" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg?v=3">
+  <img src="./dark.svg?v=3" alt="V Bablu Nayak — Computer Science Undergraduate at IIT Madras" width="100%">
 </picture>
 
 <p align="center">
